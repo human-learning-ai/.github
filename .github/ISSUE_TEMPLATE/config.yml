@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suporte Geral
+    url: https://example.com/suporte
+    about: "Clique aqui para obter suporte."
