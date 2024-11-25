@@ -1,0 +1,40 @@
+name: "✨ Solicitação de Funcionalidade"
+description: "Use este template para sugerir uma nova funcionalidade ou melhoria."
+title: "[FEATURE] Nome da funcionalidade"
+labels:
+  - feature
+assignees:
+  - ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por sugerir uma funcionalidade! Forneça detalhes sobre o que você gostaria de ver no projeto.
+
+  - type: textarea
+    attributes:
+      label: Descrição da Funcionalidade
+      description: "Explique a funcionalidade desejada e por que ela é útil."
+      placeholder: "Gostaria de ter a opção de ativar o modo escuro para melhorar a leitura em ambientes com pouca luz."
+
+  - type: textarea
+    attributes:
+      label: Benefícios
+      description: "Descreva como essa funcionalidade beneficiará os usuários ou o projeto."
+      placeholder: "Melhorará a experiência do usuário ao usar o sistema em ambientes escuros."
+
+  - type: textarea
+    attributes:
+      label: Possíveis Soluções
+      description: "Descreva como essa funcionalidade poderia ser implementada."
+      placeholder: "Adicionar uma configuração no menu para alternar entre os modos claro e escuro."
+
+  - type: dropdown
+    attributes:
+      label: Prioridade
+      description: "Quão importante é essa funcionalidade para você?"
+      options:
+        - Baixa
+        - Média
+        - Alta
+        - Muito Alta
